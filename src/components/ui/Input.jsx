@@ -1,0 +1,1 @@
+import React from 'react'\n\nexport function Input(props) {\n  return <input {...props} className={"px-3 py-2 border rounded w-full " + (props.className||'')} />\n} export default Input

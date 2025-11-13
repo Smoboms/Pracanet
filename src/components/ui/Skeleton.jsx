@@ -1,0 +1,1 @@
+import React from 'react'\n\nexport function Skeleton({ className, style }) {\n  return <div style={{ background: '#e5e7eb', borderRadius: 8, height: style?.height || 16, width: style?.width || '100%' }} className={className} />\n} export default Skeleton

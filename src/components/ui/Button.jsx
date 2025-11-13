@@ -1,0 +1,1 @@
+import React from 'react'\n\nexport function Button({ children, className = '', ...props }) {\n  return (\n    <button {...props} className={`px-4 py-2 rounded ${className}`} >{children}</button>\n  )\n} export default Button

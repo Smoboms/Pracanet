@@ -1,0 +1,1 @@
+import React from 'react'\n\nexport function Label({ children, ...props }) {\n  return <label {...props} style={{ display: 'block', marginBottom: 6 }}>{children}</label>\n} export default Label

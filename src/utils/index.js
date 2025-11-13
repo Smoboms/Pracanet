@@ -1,0 +1,1 @@
+export function createPageUrl(name) {\n  switch (name) {\n    case "Home": return "/"\n    case "Onboarding": return "/onboarding"\n    case "Profile": return "/profile"\n    case "EditProfile": return "/profile/edit"\n    default: return "/"\n  }\n}

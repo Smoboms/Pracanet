@@ -1,0 +1,1 @@
+import React from 'react'\n\nexport default function BenchLogo({ className }) {\n  return (\n    <div style={{ width: 64, height: 64, background: 'linear-gradient(90deg,#7c3aed,#06b6d4)', borderRadius: 12 }} className={className} />\n  )\n}

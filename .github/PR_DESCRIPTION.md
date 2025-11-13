@@ -1,0 +1,1 @@
+This PR restructures the repository to:\n- add Vite + React scaffold\n- split code into src/pages, src/components and src/api\n- add a simple mock base44 client for local development\n- add scripts for dev/build and Vercel configuration\n\nNote: The mock at src/api/base44Client.js is for local development only. Replace with the real Base44 client/SDK for production.\n

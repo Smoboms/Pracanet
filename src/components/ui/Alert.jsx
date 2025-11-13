@@ -1,0 +1,1 @@
+import React from 'react'\n\nexport function Alert({ children, variant, ...props }) {\n  return <div style={{ padding: 8, borderRadius: 8, background: variant === 'destructive' ? '#fee2e2' : '#eef2ff', color: '#111' }}>{children}</div>\n} export function AlertDescription({ children }) { return <div>{children}</div> } export default Alert

@@ -1,0 +1,1 @@
+import React from 'react'\n\nexport default function FollowingSheet() { return null }

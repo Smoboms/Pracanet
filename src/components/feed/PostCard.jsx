@@ -1,0 +1,1 @@
+import React from 'react'\n\nexport default function PostCard({ post }) {\n  return (\n    <article style={{ border: '1px solid #eee', padding: 12, borderRadius: 8 }}>\n      <h4>{post.title || 'Post'}</h4>\n      <p>{post.text || ''}</p>\n    </article>\n  )\n}
